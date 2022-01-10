@@ -9,7 +9,7 @@ public class Main {
             for (int x = 0; x <= 9; x++) {
                 System.out.print("*");
             }
-            System.out.println("");
+            System.out.println(" ");
         }
 
         System.out.println("2.)");
@@ -17,7 +17,7 @@ public class Main {
             for (int x = 0; x <= a; x = x + 1) {
                 System.out.print("*");
             }
-            System.out.println("");
+            System.out.println(" ");
         }
 
         System.out.println("3.)");
@@ -28,7 +28,7 @@ public class Main {
             for (int y = 0; y <= a; y++) {
                 System.out.print("*");
             }
-            System.out.println();
+            System.out.println(" ");
         }
 
         System.out.println("4.)");
@@ -39,7 +39,7 @@ public class Main {
             for (int y = 0; y <= 4 * a; y = y + 2){
                 System.out.print("*");
             }
-            System.out.println("");
+            System.out.println(" ");
         }
     }
 }
